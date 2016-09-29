@@ -66,3 +66,6 @@ SO2 not connected.
 |        12 | AO2   |      A1 | A1    |
 |        13 | Vdd   |      5V | +5VDC |
 
+##Install Library Dependencies
+
+[arduino-libraries](https://github.com/janelia-arduino/arduino-libraries)
