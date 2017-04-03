@@ -1,4 +1,4 @@
-#LinearSensorArray
+# LinearSensorArray
 
 Authors:
 
@@ -12,9 +12,9 @@ AMS-TAOS linear sensor array driver for TSL family e.g. TSL1406RS
 
 [Usage Examples](./examples)
 
-##Example Wiring of a Single TSL1406RS
+## Example Wiring of a Single TSL1406RS
 
-###Serial Connection
+### Serial Connection
 
 pixel\_per\_sensor\_count = 768
 
@@ -40,7 +40,7 @@ SO2 not connected.
 |        12 | AO2   | A0      | A0    |
 |        13 | Vdd   | 5V      | +5VDC |
 
-###Parallel Connection
+### Parallel Connection
 
 pixel\_per\_sensor\_count = 384
 
@@ -66,6 +66,6 @@ SO2 not connected.
 |        12 | AO2   |      A1 | A1    |
 |        13 | Vdd   |      5V | +5VDC |
 
-##Install Library Dependencies
+## Install Library Dependencies
 
 [arduino-libraries](https://github.com/janelia-arduino/arduino-libraries)
