@@ -9,8 +9,6 @@
 #ifndef LINEAR_SENSOR_ARRAY_IMAGE_H
 #define LINEAR_SENSOR_ARRAY_IMAGE_H
 
-#include <StandardCplusplus.h>
-#include <vector>
 
 class LinearSensorArrayImage
 {

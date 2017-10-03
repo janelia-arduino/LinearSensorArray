@@ -8,8 +8,11 @@
 
 #ifndef LINEAR_SENSOR_ARRAY_H
 #define LINEAR_SENSOR_ARRAY_H
+#include <Arduino.h>
+#include <StandardCplusplus.h>
+#include <vector>
 
-#include "LinearSensorArrayImage.h"
+#include "LinearSensorArray/LinearSensorArrayImage.h"
 
 class LinearSensorArray
 {

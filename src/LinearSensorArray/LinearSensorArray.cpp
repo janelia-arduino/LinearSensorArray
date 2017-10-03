@@ -5,13 +5,7 @@
 // Authors:
 // Peter Polidoro polidorop@janelia.hhmi.org
 // ----------------------------------------------------------------------------
-#if defined(ARDUINO) && ARDUINO >= 100
-#include "Arduino.h"
-#else
-#include "WProgram.h"
-#endif
-#include "LinearSensorArray.h"
-#include <Streaming.h>
+#include "../LinearSensorArray.h"
 
 
 //---------- constructor ----------------------------------------------------

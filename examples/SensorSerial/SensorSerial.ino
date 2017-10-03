@@ -1,7 +1,9 @@
-#include "Arduino.h"
-#include "StandardCplusplus.h"
-#include "LinearSensorArray.h"
+#include <Arduino.h>
+#include <StandardCplusplus.h>
+#include <vector.h>
+#include <LinearSensorArray.h>
 #include <Streaming.h>
+
 
 const uint8_t si_pin = 2;
 const uint8_t clk_pin = 3;
@@ -27,7 +29,7 @@ void setup()
   linear_sensor_array.init();
 
   // Setup serial communications
-  Serial.begin(9600);
+  Serial.begin(115200);
 
 }
 
