@@ -11,9 +11,9 @@
 * Example Wiring of a Single TSL1406RS
 ** Serial Connection
 
-   pixel\_per\_sensor\_count = 768
+   pixel_per_sensor_count = 768
 
-   sensor\_count = 1
+   sensor_count = 1
 
    Connect SO1 to SI2.
 
@@ -37,9 +37,9 @@
 
 ** Parallel Connection
 
-   pixel\_per\_sensor\_count = 384
+   pixel_per_sensor_count = 384
 
-   sensor\_count = 2
+   sensor_count = 2
 
    SO1 not connected.
 
