@@ -15,9 +15,9 @@ LinearSensorArray::LinearSensorArray()
 }
 
 LinearSensorArray::LinearSensorArray(uint8_t si_pin, uint8_t clk_pin, const uint8_t analog_pins[]) :
-  si_pin_(si_pin),
-  clk_pin_(clk_pin),
-  analog_pins_(analog_pins)
+si_pin_(si_pin),
+clk_pin_(clk_pin),
+analog_pins_(analog_pins)
 {
   // digitalWrite too slow, use port manipulation instead
   uint8_t si_port = digitalPinToPort(si_pin_);

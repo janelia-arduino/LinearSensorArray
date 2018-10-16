@@ -15,8 +15,8 @@ LinearSensorArrayImage::LinearSensorArrayImage()
 }
 
 LinearSensorArrayImage::LinearSensorArrayImage(int sensor_count, int pixel_per_sensor_count) :
-  sensor_count_(sensor_count),
-  pixel_per_sensor_count_(pixel_per_sensor_count)
+sensor_count_(sensor_count),
+pixel_per_sensor_count_(pixel_per_sensor_count)
 {
   // Set up data sizes. (sensor_count x pixel_per_sensor_count)
   data_.resize(sensor_count_);
